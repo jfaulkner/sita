@@ -1,0 +1,4 @@
+SITA Notification System
+
+Send current GPS coordinates as a text message to all phone numbers stored in /boot/phonebook.properties
+Run with 'python sita.py'

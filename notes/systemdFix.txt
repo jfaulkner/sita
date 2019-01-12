@@ -1,0 +1,10 @@
+I followed these commands to disable a systemd service that gpsd installs
+
+sudo systemctl stop gpsd.socket
+sudo systemctl disable gpsd.socket
+
+
+To enable it, run these commands
+
+sudo systemctl enable gpsd.socket
+sudo systemctl start gpsd.socket
